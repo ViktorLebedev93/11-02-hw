@@ -72,6 +72,25 @@ sudo systemctl status memcached
 
 ### Решение 3
 
+Листинг
+```
+telnet localhost 11211
+set key1 0 5 6
+value1
+set key2 0 60 6
+value2
+set key3 0 60 6
+value3
+get key2 key3
+get key1
+flush_all
+quit
+
+```
+
+Скриншот выполнения
+<img src="img/img2.jpg">
+
 
 ---
 
