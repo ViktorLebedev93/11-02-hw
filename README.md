@@ -75,7 +75,7 @@ sudo systemctl status memcached
 Листинг
 ```
 telnet localhost 11211
-set key1 0 5 6
+set key1 0 5 6 #TTЛ равен 5
 value1
 set key2 0 60 6
 value2
@@ -89,6 +89,7 @@ quit
 ```
 
 Скриншот выполнения
+
 <img src="img/img2.jpg">
 
 
