@@ -56,7 +56,8 @@ memcached -V
 sudo netstat -tap | grep memcached
 sudo systemctl status memcached
 ```
-**Скриншот состояния memcached **
+
+**Скриншот состояния memcached**
 <img src="img/img1.jpg">
 
 ---
